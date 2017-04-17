@@ -24,7 +24,7 @@ html, body{
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .call-to-action button {
 	margin: 0 auto;
@@ -63,6 +63,10 @@ html, body{
   -moz-transition: none;
   -o-transition: none;
   transition: none;
+}
+.mini-call{
+  color: #f4f4f4;
+  size: 30px;
 }
 
 
