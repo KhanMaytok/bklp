@@ -24,6 +24,7 @@ html, body{
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+  margin-bottom: 20px;
 }
 .call-to-action button {
 	margin: 0 auto;
@@ -63,5 +64,6 @@ html, body{
   -o-transition: none;
   transition: none;
 }
+
 
 
