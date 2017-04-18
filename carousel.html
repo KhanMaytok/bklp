@@ -90,6 +90,44 @@ p.bk{
   padding-left: 15px;
 }
 
+/* MOOOOODAL */
+/***** Modal *****/
+ 
+.modal-backdrop.in {
+    filter: alpha(opacity=7);
+    opacity: 0.7;
+}
+ 
+.modal-content {
+    background: none;
+    border: 0;
+    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+ 
+.modal-body {
+    padding: 0 25px 25px 25px;
+}
+ 
+.modal-header {
+    padding: 25px 25px 15px 25px;
+    text-align: right;
+}
+ 
+.modal-header, .modal-footer {
+    border: 0;
+}
+ 
+.modal-header .close {
+    float: none;
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: none;
+    opacity: 1;
+}
+
 	</style>
 </head>
 <body>
@@ -105,28 +143,28 @@ p.bk{
   <p class="bk">LEARN FROM THE PROS</p>
   <div class="row__inner">
     <div class="col-md-3 col-sm-4 col-xs-6">
-      <div class="tile">
+      <div class="tile" data-toggle="modal" data-target="#modal-video">
         <div class="tile__media">
           <img class="tile__img" src="https://i.vimeocdn.com/video/629791346_295x166.webp" alt=""  />
         </div>
       </div>
     </div>
     <div class="col-md-3 col-sm-4 col-xs-6">
-      <div class="tile">
+      <div class="tile" data-toggle="modal" data-target="#modal-video">
         <div class="tile__media">
           <img class="tile__img" src="https://i.vimeocdn.com/video/617184991_295x166.jpg" alt=""  />
         </div>
       </div>
     </div>
     <div class="col-md-3 col-sm-4 col-xs-6">
-      <div class="tile">
+      <div class="tile" data-toggle="modal" data-target="#modal-video">
         <div class="tile__media">
           <img class="tile__img" src="https://i.vimeocdn.com/video/617565692_295x166.jpg" alt=""  />
         </div>
       </div>
     </div>
     <div class="col-md-3 col-sm-4 col-xs-6">
-      <div class="tile">
+      <div class="tile" data-toggle="modal" data-target="#modal-video">
         <div class="tile__media">
           <img class="tile__img" src="https://i.vimeocdn.com/video/618893114_295x166.jpg" alt=""  />
         </div>
@@ -148,6 +186,29 @@ p.bk{
     
   </div>
 </div>
+
+
+
+<!-- MODAL -->
+        <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-video">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/84910153?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=e89a3e"
+                                    webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 <script
     src="https://code.jquery.com/jquery-3.2.1.min.js"
