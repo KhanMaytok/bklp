@@ -38,12 +38,12 @@ html, body{
   height: 55px;
   cursor: pointer;
   margin: 0 auto;
-  border: 2px solid rgb(30,205,151);
+  border: 2px solid #00b1be;
   -webkit-border-radius: 40px;
   border-radius: 40px;
   font-size:20px;
   color: rgba(255,255,255,1);
-  background: #2dbec9;
+  background: #00b1be;
   text-align: center;
   -o-text-overflow: clip;
   text-overflow: clip;
@@ -74,13 +74,15 @@ html, body{
 
 
 .el_modal {
-  background-color: #161415;
+  background-color: #393939;
   border-radius: 50px !important;
+  padding-top: 0 auto;
+  padding-bottom: 0 auto;
   padding-right: 50px;
   padding-left: 50px;
   text-align: justify;
   border-style: solid;
-  border-width: 5px;
+  border-width: 4px;
   border-color: #fff;
 }
 
@@ -91,3 +93,28 @@ html, body{
   /*font-size: 50px !important;*/
 }
 
+.el_modal div {
+  color: #d0d0d0;
+}
+
+.email {
+  border-radius: 0px !important;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 18px;
+  height: 58px !important;
+  max-height: 58px !important;
+}
+
+.concolor {
+  background-color: #00d8f3;
+  color: #fff;
+  border-color: #00d8f3;
+  font-weight: lighter;
+}
+
+.conespacio {
+  margin-bottom: 100px,
+}
