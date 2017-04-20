@@ -3,12 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Bootkik landing page</title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script
-		src="https://code.jquery.com/jquery-3.2.1.min.js"
-		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-		crossorigin="anonymous"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
 	<link rel="stylesheet" href="app.css">
 </head>
 <body>
@@ -47,7 +42,7 @@
 		<div class="row full-height">
 			<div class="col-md-6 full-height border-right">
 				<div class="selection full-height">	
-					<video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150" style="position: fixed; top: 50%; left: 25%; min-width: 50%; min-height: 100%; width: auto; height: auto; z-index: -90; -ms-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%);"><source src="images/left.webm" type="video/webm" /></video><!-- /video -->
+					<video id="my-video" class="bgvid" autoplay="autoplay" loop="loop" muted=""><source src="images/left.webm" type="video/webm" /></video><!-- /video -->
 					<div class="call-to-action">
 						<p class="mini-call">bootkik e-learning</p>
 						<button id="envolve" data-toggle="modal" data-target="#EnvolveModal">EVOLVE YOUR BUSSINESS</button>
@@ -56,7 +51,7 @@
 			</div>
 			<div class="col-md-6 full-height">
 				<div class="selection full-height">
-					<video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150" style="position: fixed; top: 50%; left: 75%; min-width: 50%; min-height: 100%; width: auto; height: auto; z-index: -100; -ms-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%);"><source src="images/right.webm" type="video/webm" /></video><!-- /video -->
+					<video id="my-video" class="bgvid" autoplay="autoplay" loop="loop" muted=""><source src="images/right.webm" type="video/webm" /></video><!-- /video -->
 					<div class="call-to-action">
 						<p class="mini-call">bootkik stories</p>
 						<button id="learn">LEARN FROM THE PROS</button>
@@ -65,6 +60,10 @@
 			</div>
 		</div>
 	</div>
+	<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
