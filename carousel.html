@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="app.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<style>
-
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .row__inner {
   -webkit-transition: 450ms -webkit-transform;
   transition: 450ms -webkit-transform;
@@ -160,8 +162,26 @@ p.bk{
 }
 .video-title{
     color: #2db5be;
-}   
-	</style>
+    font-weight: bolder;
+}
+.video-subtitle{
+    color: #f4f4f4;
+}
+.video-title h3, .video-subtitle h4{
+    padding: 10px;
+}
+.video-title h3{
+    margin-top: 1px;
+}
+.video-subtitle h4{
+    margin-bottom: 1px;
+    padding-bottom: 1px; 
+}
+.text-underline {
+    border-bottom: 3px solid #2ebbc5;
+}
+</style>
+
 </head>
 <body>
     <div class="bk-container">
@@ -187,7 +207,7 @@ p.bk{
             <div class="row">
                 <div class="container">
                     <div class="container-videos-bottom">
-                        <p class="bk">LEARN FROM THE PROS</p>
+                        <p class="bk"><span class="text-underline">LEARN FROM THE PROS</span></p>
                         <div class="row__inner">
                             <div class="col-md-3 col-sm-4 col-xs-6">
                                 <div class="tile" data-toggle="modal" data-target="#modal-video">
@@ -230,7 +250,63 @@ p.bk{
 
     <div class="video-list-bg">
         <div class="row">
-            <p class="bk">ESTABILISHED ENTREPENEURS</p>
+            <p class="bk"><span class="text-underline">ESTABILISHED ENTREPENEURS</span></p>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-1">
+                <div class="tp-bgimg defaultimg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg&quot;); background-size: cover; background-position: 50% 0%; width: 100%; height: 550px;" src="http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg">
+                    <div class="video-vertical-text">
+                        <div class="video-subtitle">
+                            <h4>Video subtitle</h4>
+                        </div>
+                        <div class="video-title">                            
+                            <h3>LEADERSHIP: TAKE ACTION &amp; RESPONSABILITY</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="tp-bgimg defaultimg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg&quot;); background-size: cover; background-position: 50% 0%; width: 100%; height: 550px;" src="http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg">
+                    <div class="video-vertical-text">
+                        <div class="video-title">
+                            <h3>VIDEO TITLE</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="tp-bgimg defaultimg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg&quot;); background-size: cover; background-position: 50% 0%; width: 100%; height: 550px;" src="http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg">
+                    <div class="video-vertical-text">
+                        <div class="video-title">
+                            <h3>VIDEO TITLE</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="tp-bgimg defaultimg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg&quot;); background-size: cover; background-position: 50% 0%; width: 100%; height: 550px;" src="http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg">
+                    <div class="video-vertical-text">
+                        <div class="video-title">
+                            <h3>VIDEO TITLE</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="tp-bgimg defaultimg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg&quot;); background-size: cover; background-position: 50% 0%; width: 100%; height: 550px;" src="http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg">
+                    <div class="video-vertical-text">
+                        <div class="video-title">
+                            <h3>VIDEO TITLE</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-list-bg">
+        <div class="row">
+            <p class="bk"><span class="text-underline">EMERGING ENTREPENEURS</span></p>
         </div>
         <div class="row">
             <div class="col-md-2 col-md-offset-1">
@@ -286,63 +362,7 @@ p.bk{
 
     <div class="video-list-bg">
         <div class="row">
-            <h3 class="subtitle">EMERGING ENTREPENEURS</h3>
-        </div>
-        <div class="row">
-            <div class="col-md-2 col-md-offset-1">
-                <div class="tp-bgimg defaultimg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg&quot;); background-size: cover; background-position: 50% 0%; width: 100%; height: 550px;" src="http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg">
-                    <div class="video-vertical-text">
-                        <div class="video-subtitle">
-                            <h4>Video subtitle</h4>
-                        </div>
-                        <div class="video-title">                            
-                            <h3>VIDEO TITLE</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="tp-bgimg defaultimg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg&quot;); background-size: cover; background-position: 50% 0%; width: 100%; height: 550px;" src="http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg">
-                    <div class="video-vertical-text">
-                        <div class="video-title">
-                            <h3>VIDEO TITLE</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="tp-bgimg defaultimg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg&quot;); background-size: cover; background-position: 50% 0%; width: 100%; height: 550px;" src="http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg">
-                    <div class="video-vertical-text">
-                        <div class="video-title">
-                            <h3>VIDEO TITLE</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="tp-bgimg defaultimg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg&quot;); background-size: cover; background-position: 50% 0%; width: 100%; height: 550px;" src="http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg">
-                    <div class="video-vertical-text">
-                        <div class="video-title">
-                            <h3>VIDEO TITLE</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="tp-bgimg defaultimg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg&quot;); background-size: cover; background-position: 50% 0%; width: 100%; height: 550px;" src="http://stories.bootkik.com/wp-content/uploads/2016/12/Carolyn-1.jpg">
-                    <div class="video-vertical-text">
-                        <div class="video-title">
-                            <h3>VIDEO TITLE</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="video-list-bg">
-        <div class="row">
-            <p class="bk">ANGEL INVESTORS</p>
+            <p class="bk"><span class="text-underline">ANEGL INVESTORS</span></p>
         </div>
         <div class="row">
             <div class="col-md-2 col-md-offset-1">
